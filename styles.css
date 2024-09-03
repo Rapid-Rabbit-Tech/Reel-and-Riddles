@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    padding: clamp(5px, 5%, 40px);
+    margin: clamp(5px, 5%, 40px);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+header h1,
+header h2 {
+    color: #fff;
+}
+
+p {
+    color: #555;
+}
+
+.center {
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+#screenshots img {
+    width: 30%;
+    min-width: 200px;
+    max-width: 500px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#game-arts img {
+    width: 20%;
+    min-width: 90px;
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#promotional-arts img {
+    width: 50%;
+    min-width: 350px;
+    max-width: 1000px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+iframe {
+    border: none;
+}
+
+a.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+a.button:hover {
+    background-color: #45a049;
+}
