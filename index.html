@@ -8,6 +8,7 @@
    <style>
       body {
          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-size: large;
          margin: 0;
          padding: 0;
          background-color: #f9f9f9;
@@ -21,8 +22,8 @@
       }
 
       section {
-         padding: 20px;
-         margin: 20px;
+         padding: clamp(5px, 5%, 40px);
+         margin: clamp(5px, 5%, 40px);
          background-color: #fff;
          border-radius: 10px;
          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -50,10 +51,28 @@
          transform: scale(1.1);
       }
 
-      .responsive img {
+      #screenshots img {
          width: 30%;
-         min-width: 150px;
-         max-width: 300px;
+         min-width: 200px;
+         max-width: 500px;
+         height: auto;
+         margin-right: 20px;
+         margin-bottom: 20px;
+      }
+
+      #game-arts img {
+         width: 20%;
+         min-width: 90px;
+         max-width: 200px;
+         height: auto;
+         margin-right: 20px;
+         margin-bottom: 20px;
+      }
+
+      #promotional-arts img {
+         width: 50%;
+         min-width: 350px;
+         max-width: 1000px;
          height: auto;
          margin-right: 20px;
          margin-bottom: 20px;
@@ -89,23 +108,21 @@
 
    <section id="screenshots">
       <h2>Screenshots</h2>
-      <div class="responsive">
-         <a href="https://drive.google.com/file/d/1R7tIBkmUMcb3s_PjLWtMHfEnfdqEBDKQ/view?usp=drive_link">
-            <img src="https://drive.google.com/thumbnail?id=1R7tIBkmUMcb3s_PjLWtMHfEnfdqEBDKQ" alt="Screenshot 1">
-         </a>
-         <a href="https://drive.google.com/file/d/1oVIYlN4lvrRaMduMc2fwkbvghnFUGwSk/view?usp=drive_link">
-            <img src="https://drive.google.com/thumbnail?id=1oVIYlN4lvrRaMduMc2fwkbvghnFUGwSk" alt="Screenshot 2">
-         </a>
-         <a href="https://drive.google.com/file/d/1pyun9r-dtjTb5pt_Sic9b2wzfVzibucx/view?usp=drive_link">
-            <img src="https://drive.google.com/thumbnail?id=1pyun9r-dtjTb5pt_Sic9b2wzfVzibucx" alt="Screenshot 3">
-         </a>
-         <a href="https://drive.google.com/file/d/1ER71QypjDw5bZRQf5cdLjvv0kTgPIbyM/view?usp=drive_link">
-            <img src="https://drive.google.com/thumbnail?id=1ER71QypjDw5bZRQf5cdLjvv0kTgPIbyM" alt="Screenshot 4">
-         </a>
-         <a href="https://drive.google.com/file/d/1RGsbdVKaUMVxQ-MF9c2YMy58pq01aDU7/view?usp=drive_link">
-            <img src="https://drive.google.com/thumbnail?id=1RGsbdVKaUMVxQ-MF9c2YMy58pq01aDU7" alt="Screenshot 5">
-         </a>
-      </div>
+      <a href="https://drive.google.com/file/d/1R7tIBkmUMcb3s_PjLWtMHfEnfdqEBDKQ/view?usp=drive_link">
+         <img src="https://drive.google.com/thumbnail?id=1R7tIBkmUMcb3s_PjLWtMHfEnfdqEBDKQ&sz=w1920" alt="Screenshot 1">
+      </a>
+      <a href="https://drive.google.com/file/d/1oVIYlN4lvrRaMduMc2fwkbvghnFUGwSk/view?usp=drive_link">
+         <img src="https://drive.google.com/thumbnail?id=1oVIYlN4lvrRaMduMc2fwkbvghnFUGwSk&sz=w1920" alt="Screenshot 2">
+      </a>
+      <a href="https://drive.google.com/file/d/1pyun9r-dtjTb5pt_Sic9b2wzfVzibucx/view?usp=drive_link">
+         <img src="https://drive.google.com/thumbnail?id=1pyun9r-dtjTb5pt_Sic9b2wzfVzibucx&sz=w1920" alt="Screenshot 3">
+      </a>
+      <a href="https://drive.google.com/file/d/1ER71QypjDw5bZRQf5cdLjvv0kTgPIbyM/view?usp=drive_link">
+         <img src="https://drive.google.com/thumbnail?id=1ER71QypjDw5bZRQf5cdLjvv0kTgPIbyM&sz=w1920" alt="Screenshot 4">
+      </a>
+      <a href="https://drive.google.com/file/d/1RGsbdVKaUMVxQ-MF9c2YMy58pq01aDU7/view?usp=drive_link">
+         <img src="https://drive.google.com/thumbnail?id=1RGsbdVKaUMVxQ-MF9c2YMy58pq01aDU7&sz=w1920" alt="Screenshot 5">
+      </a>
    </section>
 
    <section id="footages">
@@ -116,27 +133,23 @@
 
    <section id="game-arts">
       <h2>Game Arts</h2>
-      <div class="responsive">
-         <a href="https://drive.google.com/file/d/12XUGuasI84aifbCrlpHgKarEyAeeP_XL/view?usp=drive_link">
-            <img src="https://drive.google.com/thumbnail?id=12XUGuasI84aifbCrlpHgKarEyAeeP_XL" alt="Koi">
-         </a>
-         <a href="https://drive.google.com/file/d/1N_DTGs09qqgW9Ki56652wvwuDYPshcx6/view?usp=drive_link">
-            <img src="https://drive.google.com/thumbnail?id=1N_DTGs09qqgW9Ki56652wvwuDYPshcx6" alt="Goldfish">
-         </a>
-      </div>
+      <a href="https://drive.google.com/file/d/12XUGuasI84aifbCrlpHgKarEyAeeP_XL/view?usp=drive_link">
+         <img src="https://drive.google.com/thumbnail?id=12XUGuasI84aifbCrlpHgKarEyAeeP_XL&sz=w1920" alt="Koi">
+      </a>
+      <a href="https://drive.google.com/file/d/1N_DTGs09qqgW9Ki56652wvwuDYPshcx6/view?usp=drive_link">
+         <img src="https://drive.google.com/thumbnail?id=1N_DTGs09qqgW9Ki56652wvwuDYPshcx6&sz=w1920" alt="Goldfish">
+      </a>
    </section>
 
    <section id="promotional-arts">
       <h2>Promotional Arts</h2>
-      <div class="responsive">
-         <a href="https://drive.google.com/file/d/1V4GOF4WRj_TjQ7vnlP4X084-Aay3Rwh5/view?usp=drive_link">
-            <img src="https://drive.google.com/thumbnail?id=1V4GOF4WRj_TjQ7vnlP4X084-Aay3Rwh5" alt="Main Capsule">
-         </a>
-         <a href="https://drive.google.com/file/d/1Dn-5vTLT7FCvkH8D469mtPwnKS9jxPXG/view?usp=drive_link">
-            <img src="https://drive.google.com/thumbnail?id=1Dn-5vTLT7FCvkH8D469mtPwnKS9jxPXG"
-               alt="Main Capsule Background">
-         </a>
-      </div>
+      <a href="https://drive.google.com/file/d/1V4GOF4WRj_TjQ7vnlP4X084-Aay3Rwh5/view?usp=drive_link">
+         <img src="https://drive.google.com/thumbnail?id=1V4GOF4WRj_TjQ7vnlP4X084-Aay3Rwh5&sz=w1920" alt="Main Capsule">
+      </a>
+      <a href="https://drive.google.com/file/d/1Dn-5vTLT7FCvkH8D469mtPwnKS9jxPXG/view?usp=drive_link">
+         <img src="https://drive.google.com/thumbnail?id=1Dn-5vTLT7FCvkH8D469mtPwnKS9jxPXG&sz=w1920"
+            alt="Main Capsule Background">
+      </a>
    </section>
 
    <section id="trailer">
