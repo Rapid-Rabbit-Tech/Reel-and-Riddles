@@ -4,7 +4,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Game Press Kit</title>
+   <title>Reel and Riddles</title>
    <style>
       body {
          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -16,7 +16,6 @@
 
       header {
          background-color: #333;
-         color: #fff;
          text-align: center;
          padding: 20px 0;
       }
@@ -44,11 +43,20 @@
       }
 
       img {
-         max-width: 100%;
+         transition: transform 0.3s;
+      }
+
+      img:hover {
+         transform: scale(1.1);
+      }
+
+      .responsive img {
+         width: 30%;
+         min-width: 150px;
+         max-width: 300px;
          height: auto;
-         margin-bottom: 10px;
-         border-radius: 5px;
-         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+         margin-right: 20px;
+         margin-bottom: 20px;
       }
 
       .gallery {
@@ -57,24 +65,8 @@
          justify-content: center;
       }
 
-      .gallery img {
-         width: 200px;
-         margin: 10px;
-         border-radius: 5px;
-         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-         transition: transform 0.3s;
-      }
-
-      .gallery img:hover {
-         transform: scale(1.1);
-      }
-
       iframe {
-         width: 100%;
-         height: 400px;
          border: none;
-         border-radius: 10px;
-         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       }
    </style>
 </head>
@@ -82,42 +74,79 @@
 <body>
 
    <header>
-      <h1 id="title">Reel and Riddle</h1>
+      <h1>Reel and Riddles</h1>
       <h2>Press Kit</h2>
    </header>
 
    <section id="basic-info">
       <h2>Basic Info</h2>
-      <p>Description of the game goes here.</p>
+      <p>Game Name: Reel and Riddles</p>
       <p>Release Date: Q4 of 2024</p>
       <p>Platforms: Steam</p>
       <p>Developer: Rapid Rabbit</p>
+      <p>Queries: <a href="mailto: rapid.rabbit.tech@gmail.com">rapid.rabbit.tech@gmail.com</a></p>
    </section>
 
    <section id="screenshots">
       <h2>Screenshots</h2>
-      <div class="gallery">
-         <img src="https://drive.google.com/uc?export=view&id=1R7tIBkmUMcb3s_PjLWtMHfEnfdqEBDKQ" alt="Screenshot 1">
-         <img src="https://drive.google.com/uc?export=view&id=1oVIYlN4lvrRaMduMc2fwkbvghnFUGwSk" alt="Screenshot 2">
-         <img src="https://drive.google.com/uc?export=view&id=1pyun9r-dtjTb5pt_Sic9b2wzfVzibucx" alt="Screenshot 3">
-         <img src="https://drive.google.com/uc?export=view&id=1ER71QypjDw5bZRQf5cdLjvv0kTgPIbyM" alt="Screenshot 4">
-         <img src="https://drive.google.com/uc?export=view&id=1RGsbdVKaUMVxQ-MF9c2YMy58pq01aDU7" alt="Screenshot 5">
+      <div class="responsive">
+         <a href="https://drive.google.com/file/d/1R7tIBkmUMcb3s_PjLWtMHfEnfdqEBDKQ/view?usp=drive_link">
+            <img src="https://drive.google.com/thumbnail?id=1R7tIBkmUMcb3s_PjLWtMHfEnfdqEBDKQ" alt="Screenshot 1">
+         </a>
+         <a href="https://drive.google.com/file/d/1oVIYlN4lvrRaMduMc2fwkbvghnFUGwSk/view?usp=drive_link">
+            <img src="https://drive.google.com/thumbnail?id=1oVIYlN4lvrRaMduMc2fwkbvghnFUGwSk" alt="Screenshot 2">
+         </a>
+         <a href="https://drive.google.com/file/d/1pyun9r-dtjTb5pt_Sic9b2wzfVzibucx/view?usp=drive_link">
+            <img src="https://drive.google.com/thumbnail?id=1pyun9r-dtjTb5pt_Sic9b2wzfVzibucx" alt="Screenshot 3">
+         </a>
+         <a href="https://drive.google.com/file/d/1ER71QypjDw5bZRQf5cdLjvv0kTgPIbyM/view?usp=drive_link">
+            <img src="https://drive.google.com/thumbnail?id=1ER71QypjDw5bZRQf5cdLjvv0kTgPIbyM" alt="Screenshot 4">
+         </a>
+         <a href="https://drive.google.com/file/d/1RGsbdVKaUMVxQ-MF9c2YMy58pq01aDU7/view?usp=drive_link">
+            <img src="https://drive.google.com/thumbnail?id=1RGsbdVKaUMVxQ-MF9c2YMy58pq01aDU7" alt="Screenshot 5">
+         </a>
       </div>
-   </section>
-
-   <section id="game-arts">
-      <h2>Game Arts</h2>
-      <img src="https://drive.google.com/file/d/12XUGuasI84aifbCrlpHgKarEyAeeP_XL/view?usp=drive_link" alt="Fish 1">
    </section>
 
    <section id="footages">
       <h2>Footages</h2>
-      <iframe src="https://drive.google.com/file/d/12RqXWVFP-fXiDw09qMf1hNE9QrveReLs/preview" width="640" height="480" allow="autoplay"></iframe>
+      <iframe src="https://drive.google.com/file/d/12RqXWVFP-fXiDw09qMf1hNE9QrveReLs/preview" allowfullscreen></iframe>
+      <iframe src="https://drive.google.com/file/d/12RqXWVFP-fXiDw09qMf1hNE9QrveReLs/preview" allowfullscreen></iframe>
+   </section>
+
+   <section id="game-arts">
+      <h2>Game Arts</h2>
+      <div class="responsive">
+         <a href="https://drive.google.com/file/d/12XUGuasI84aifbCrlpHgKarEyAeeP_XL/view?usp=drive_link">
+            <img src="https://drive.google.com/thumbnail?id=12XUGuasI84aifbCrlpHgKarEyAeeP_XL" alt="Koi">
+         </a>
+         <a href="https://drive.google.com/file/d/1N_DTGs09qqgW9Ki56652wvwuDYPshcx6/view?usp=drive_link">
+            <img src="https://drive.google.com/thumbnail?id=1N_DTGs09qqgW9Ki56652wvwuDYPshcx6" alt="Goldfish">
+         </a>
+      </div>
+   </section>
+
+   <section id="promotional-arts">
+      <h2>Promotional Arts</h2>
+      <div class="responsive">
+         <a href="https://drive.google.com/file/d/1V4GOF4WRj_TjQ7vnlP4X084-Aay3Rwh5/view?usp=drive_link">
+            <img src="https://drive.google.com/thumbnail?id=1V4GOF4WRj_TjQ7vnlP4X084-Aay3Rwh5" alt="Main Capsule">
+         </a>
+         <a href="https://drive.google.com/file/d/1Dn-5vTLT7FCvkH8D469mtPwnKS9jxPXG/view?usp=drive_link">
+            <img src="https://drive.google.com/thumbnail?id=1Dn-5vTLT7FCvkH8D469mtPwnKS9jxPXG"
+               alt="Main Capsule Background">
+         </a>
+      </div>
    </section>
 
    <section id="trailer">
       <h2>Trailer</h2>
-      <iframe src="https://www.youtube.com/embed/L9G-9v1h8js" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/L9G-9v1h8js" allowfullscreen></iframe>
+   </section>
+
+   <section id="brief-description">
+      <h2>Brief Description</h2>
+      <p>Brief description about the game</p>
    </section>
 
 </body>
