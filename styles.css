@@ -48,6 +48,11 @@ img:hover {
     transform: scale(1.1);
 }
 
+h1 img {
+    width: 50%;
+    height: auto;
+}
+
 #screenshots img {
     width: 40%;
     min-width: 250px;
@@ -57,19 +62,10 @@ img:hover {
     margin-bottom: 20px;
 }
 
-#game-arts img {
-    width: 20%;
-    min-width: 90px;
-    max-width: 200px;
-    height: auto;
-    margin-right: 40px;
-    margin-bottom: 40px;
-}
-
 #promotional-arts img {
-    width: 50%;
-    min-width: 350px;
-    max-width: 1000px;
+    /* width: 50%; */
+    /* min-width: 350px; */
+    max-width: min(1000px, 100%);
     height: auto;
     margin-right: 20px;
     margin-bottom: 20px;
