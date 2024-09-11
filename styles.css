@@ -13,6 +13,11 @@ header {
     padding: 20px 0;
 }
 
+header h1,
+header h2 {
+    color: #fff;
+}
+
 section {
     padding: clamp(5px, 5%, 40px);
     margin: clamp(5px, 5%, 40px);
@@ -21,14 +26,11 @@ section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h1,
-h2 {
+section h1,
+section h2 {
     color: #333;
-}
-
-header h1,
-header h2 {
-    color: #fff;
+    border-left: solid 7px #64bffc;
+    text-indent: 10px;
 }
 
 p {
