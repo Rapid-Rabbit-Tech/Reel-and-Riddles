@@ -63,9 +63,9 @@ h1 img {
 }
 
 #gifs img {
-    width: 30%;
-    min-width: 200px;
-    max-width: 500px;
+    width: 40%;
+    min-width: 250px;
+    max-width: 700px;
     height: auto;
     margin-right: 20px;
     margin-bottom: 20px;
